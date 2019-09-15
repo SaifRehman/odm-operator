@@ -1,0 +1,6 @@
+apiVersion: ibm.odm.com/v1alpha1
+kind: Odm
+metadata:
+  name: odm
+spec:
+  license: accept
