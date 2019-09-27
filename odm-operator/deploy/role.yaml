@@ -18,6 +18,12 @@ rules:
   verbs:
   - '*'
 - apiGroups:
+  - "security.openshift.io"
+  resources:
+  - "*"
+  verbs:
+  - '*'
+- apiGroups:
   - ""
   resources:
   - pods
