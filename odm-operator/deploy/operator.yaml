@@ -15,7 +15,7 @@ spec:
       serviceAccountName: odm-operator
       containers:
         - name: odm-operator
-          image: s4saif/odm-operator:1.0.0
+          image: s4saif/odm-operator:1.0.1
           imagePullPolicy: Always
           env:
             - name: WATCH_NAMESPACE

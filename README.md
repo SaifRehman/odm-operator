@@ -32,6 +32,7 @@ $ oc apply -f deploy/role.yaml
 $ oc apply -f deploy/role_binding.yaml
 $ oc apply -f deploy/operator.yaml
 $ oc apply -f deploy/crds/mongorest_v1alpha1_mongorest_crd.yaml
+$ oc apply -f sc.yaml
 ```
 ## Deploy ODM in minutes 
 ``` YAML
